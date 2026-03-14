@@ -1,7 +1,7 @@
 {
   "name": "queries",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project for working with queries using Claude AI Agent SDK and SQLite",
   "main": "index.js",
   "scripts": {
     "setup": "npm install && node ./scripts/init-claude.js",
@@ -16,7 +16,7 @@
     "@anthropic-ai/claude-agent-sdk": "^0.1.5",
     "@types/node": "^24.0.13",
     "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7",
+    "sqlite3": "^6.0.1",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   }
